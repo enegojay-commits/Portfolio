@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Grade Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="calculator-container">
+
+            <h1>Student Grade Calculator</h1>
+
+            <p class="subtitle">
+                Enter the student's information and grades.
+            </p>
+
+            <div class="form-group">
+
+                <label for="student-name">
+                    Student Name
+                </label>
+
+                <input
+                    type="text"
+                    id="student-name"
+                    placeholder="Enter student name"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="grade1">
+                    Math
+                </label>
+
+                <input
+                    type="number"
+                    id="grade1"
+                    placeholder="Enter grade"
+                    min="0"
+                    max="100"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="grade2">
+                    English
+                </label>
+
+                <input
+                    type="number"
+                    id="grade2"
+                    placeholder="Enter grade"
+                    min="0"
+                    max="100"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="grade3">
+                    Science
+                </label>
+
+                <input
+                    type="number"
+                    id="grade3"
+                    placeholder="Enter grade"
+                    min="0"
+                    max="100"
+                >
+
+            </div>
+
+
+            <button id="calculate-button">
+                Calculate Grade
+            </button>
+
+            <button id="reset-button">
+    Reset
+</button>
+
+
+            <div id="result" class="result">
+
+                <h2>Result</h2>
+
+                <p id="student-result"></p>
+
+                <p id="average-result"></p>
+
+                <p id="status-result"></p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
