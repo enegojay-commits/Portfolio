@@ -1,17 +1,9 @@
-/* =========================
-   BASIC RESET
-========================= */
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-
-/* =========================
-   PAGE
-========================= */
 
 body {
     min-height: 100vh;
@@ -27,11 +19,7 @@ body {
     background: #070b14;
     color: #f5f7fa;
 }
-
-
-/* =========================
-   QUIZ CONTAINER
-========================= */
+
 
 .quiz-container {
     width: 100%;
@@ -47,11 +35,7 @@ body {
 
     text-align: center;
 }
-
-
-/* =========================
-   TITLE
-========================= */
+
 
 .quiz-container h1 {
     margin-bottom: 10px;
@@ -60,9 +44,6 @@ body {
 }
 
 
-/* =========================
-   QUESTION NUMBER
-========================= */
 
 .question-number {
     margin-bottom: 25px;
@@ -72,10 +53,7 @@ body {
     font-size: 0.95rem;
 }
 
-
-/* =========================
-   QUESTION
-========================= */
+
 
 .question {
     margin-bottom: 30px;
@@ -84,11 +62,7 @@ body {
 
     line-height: 1.5;
 }
-
-
-/* =========================
-   ANSWER BUTTONS
-========================= */
+
 
 .answer-buttons {
     display: flex;
@@ -125,10 +99,7 @@ body {
 
     transform: translateY(-2px);
 }
-
-/* =========================
-   NEXT BUTTON
-========================= */
+
 
 .next-button {
     margin-top: 25px;
@@ -154,11 +125,7 @@ body {
 
     background: #7c3aed;
 }
-
-
-/* =========================
-   RESULT
-========================= */
+
 
 .result {
     display: none;
@@ -179,11 +146,7 @@ body {
 
     font-size: 1.2rem;
 }
-
-
-/* =========================
-   RESTART BUTTON
-========================= */
+
 
 .restart-button {
     padding: 12px 30px;
@@ -205,10 +168,7 @@ body {
 .restart-button:hover {
     transform: translateY(-2px);
 }
-
-/* =========================
-   MOBILE RESPONSIVE
-========================= */
+
 
 @media (max-width: 600px) {
 
@@ -234,11 +194,7 @@ body {
         font-size: 0.95rem;
     }
 
-}
-
-/* =========================
-   PROGRESS BAR
-========================= */
+}
 
 .progress-bar {
     width: 100%;
@@ -273,10 +229,7 @@ body {
 .next-button:not(:disabled):hover {
     transform: translateY(-2px);
 }
-
-/* =========================
-   ANSWER FEEDBACK
-========================= */
+
 
 .feedback {
     min-height: 24px;
