@@ -526,8 +526,7 @@ footer p {
 
 
 @media (max-width: 900px) {
-
-    /* Home */
+
 
     #home {
         flex-direction: column;
@@ -550,16 +549,13 @@ footer p {
         width: 300px;
         height: 300px;
     }
-
-
-    /* Skills */
+
 
     .skills-list {
         grid-template-columns: repeat(2, 1fr);
     }
 
 
-    /* Projects */
 
     .projects-list {
         grid-template-columns: repeat(2, 1fr);
