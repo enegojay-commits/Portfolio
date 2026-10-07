@@ -2,8 +2,7 @@
 
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector(".nav-links");
-
-// Open and close the mobile menu
+
 menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
 
@@ -13,8 +12,7 @@ menuToggle.addEventListener("click", () => {
         menuToggle.textContent = "☰";
     }
 });
-
-// Close the menu when a navigation link is clicked
+
 const navItems = document.querySelectorAll(".nav-links a");
 
 navItems.forEach((link) => {
@@ -24,31 +22,19 @@ navItems.forEach((link) => {
     });
 });
 
-
-// ========================================
-// SCROLL REVEAL
-// ========================================
+
 
 const revealElements = document.querySelectorAll(".reveal");
 
-
-// ========================================
-// ACTIVE NAVIGATION
-// ========================================
+
 
 const sections = document.querySelectorAll("section");
 const navLinksAll = document.querySelectorAll(".nav-links a");
 
-
-// ========================================
-// SCROLL HANDLER
-// ========================================
+
 
 const handleScroll = () => {
-
-    // -------------------------------
-    // Scroll Reveal
-    // -------------------------------
+
 
     revealElements.forEach((element) => {
         const elementTop = element.getBoundingClientRect().top;
@@ -59,10 +45,7 @@ const handleScroll = () => {
         }
     });
 
-
-    // -------------------------------
-    // Active Navigation
-    // -------------------------------
+
 
     let currentSection = "";
 
