@@ -644,9 +644,7 @@ footer p {
     background: rgba(200, 255, 61, 0.08);
     color: var(--lime);
 }
-
-
-    /* Home */
+
 
     #home {
         padding-top: 130px;
@@ -667,22 +665,19 @@ footer p {
         height: 260px;
     }
 
-
-    /* Skills */
+
 
     .skills-list {
         grid-template-columns: 1fr;
     }
 
-
-    /* Projects */
+
 
     .projects-list {
         grid-template-columns: 1fr;
     }
 
-
-    /* Footer */
+
 
     footer {
         flex-direction: column;
