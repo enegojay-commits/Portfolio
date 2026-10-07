@@ -1,8 +1,4 @@
-// =========================
-// QUIZ QUESTIONS
-// =========================
-
-const questions = [
+const questions = [
     {
         question: "What is the capital of the Philippines?",
         answers: [
@@ -54,10 +50,7 @@ const questions = [
     }
 ];
 
-
-// =========================
-// GET HTML ELEMENTS
-// =========================
+
 
 const questionElement = document.querySelector(".question");
 const questionNumberElement = document.querySelector(".question-number");
@@ -70,18 +63,12 @@ const resultElement = document.querySelector(".result");
 const scoreElement = document.querySelector(".score");
 const restartButton = document.querySelector(".restart-button");
 
-
-// =========================
-// QUIZ VARIABLES
-// =========================
+
 
 let currentQuestionIndex = 0;
 let score = 0;
 
-
-// =========================
-// SHOW QUESTION
-// =========================
+
 
 function showQuestion() {
 
@@ -159,10 +146,7 @@ function showQuestion() {
     });
 }
 
-
-// =========================
-// NEXT BUTTON
-// =========================
+
 
 nextButton.addEventListener("click", () => {
 
@@ -180,10 +164,7 @@ nextButton.addEventListener("click", () => {
 
 });
 
-
-// =========================
-// SHOW RESULT
-// =========================
+
 
 function showResult() {
 
@@ -199,10 +180,7 @@ function showResult() {
 
 }
 
-
-// =========================
-// RESTART QUIZ
-// =========================
+
 
 restartButton.addEventListener("click", () => {
 
@@ -220,10 +198,7 @@ restartButton.addEventListener("click", () => {
 
 });
 
-
-// =========================
-// START QUIZ
-// =========================
+
 
 resultElement.style.display = "none";
 
