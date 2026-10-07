@@ -56,8 +56,7 @@ const handleScroll = () => {
             currentSection = section.getAttribute("id");
         }
     });
-
-    // Home is active when we're near the top
+
     if (window.scrollY < 200) {
         currentSection = "home";
     }
@@ -71,10 +70,8 @@ const handleScroll = () => {
     });
 };
 
-
-// Listen for scrolling
+
 window.addEventListener("scroll", handleScroll);
 
-
-// Run once when the page loads
+
 handleScroll();
