@@ -1,4 +1,4 @@
-const questions = [
+lconst questions = [
     {
         question: "What is the capital of the Philippines?",
         answers: [
@@ -119,8 +119,7 @@ function showQuestion() {
 
     feedbackElement.textContent = "❌ Incorrect!";
     feedbackElement.style.color = "#ef4444";
-
-    // Find and highlight the correct answer
+
     const allButtons =
         answerButtons.querySelectorAll("button");
 
